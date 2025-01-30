@@ -1,0 +1,181 @@
+body{
+    scrollbar-width: none;
+    scrollbar-color: dark;
+}
+/* PC */
+@media (min-width: 1220px){
+    
+}
+/* heigh ,fix footer */
+::-webkit-scrollbar {
+    display: none;
+}
+@media (max-height: 790px){
+    .footercontainer{
+        bottom: 0;
+    }
+    
+}
+/* smaller than 1024 px */
+@media (min-width: 992px) and (max-width: 1219px) {
+   
+    
+    .logocontainer {
+        width: 378px;
+        height: 53.22px;
+    }
+    .box3 {
+        padding: 10px;
+        height: 100px;
+        width: 190px;
+    }
+    
+    .spaceadjust {
+        justify-content: center;
+        min-width: 866px;
+    }
+    .footercontainer{
+        bottom: 0;
+    }
+    .footer{
+        margin-top: unset;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+      }
+    .sildercover {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        height: calc(100% + 200px);
+    }
+
+
+}
+
+/* Tablet & Mobile  */
+@media (max-width: 991.8px) {
+    
+/* hide tab  */
+    
+    /* mnu overlay */
+    
+    /* footer  */
+    .footercontainer{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .box2 , .box3 , .box1{
+        flex-direction: column;
+        display: flex;
+        width: 450px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright{
+        padding-left: 0;
+    }
+    
+}
+/* Tablet */
+@media (min-width: 600px) and (max-width:991.8px){
+    /* scroll */
+    /* Hide scrollbar for Chrome, Safari and Opera */
+   
+    
+    /* footer */
+    .connectwithwe , .contactwithme{
+        top: 0px;
+        top: 10px;
+     }
+     .fb{
+        position: relative;
+        top: -2px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 0px;
+    
+    }
+    .ins{
+        position: relative;
+        top: 6px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 1.2px;
+    
+    }
+    /* menuresponsive */
+    .menuresponsive{
+        position: absolute;
+        color: #fff;
+        top: 30px;
+        left: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    .iconscoverm{
+
+    }
+}
+
+/* Mobile */
+@media (max-width: 599px){
+    
+    .connectwithwe{
+        top: 0px;
+        position: relative;
+        top: 10px;
+     }
+     .fb{
+        position: relative;
+        top: 0px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 0px;
+    
+    }
+    .ins{
+        position: relative;
+        top: 8px;
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        text-decoration: none;
+        color: #fff;
+        left: 1.2px;
+    
+    }
+    .mail , .fb , .ins {
+        font-size: 14px;
+        left: auto;
+    }
+    .copyright{
+        font-size: 11px;
+        left: 5px;
+    }
+    .connectwithwe , .contactwithme{
+        font-size: 16px;
+    }
+    .left_side .ftlogo{
+        width: 250px;
+    }
+    .lopngoai , .custom {
+        display: block;
+        height: 100%;
+        max-height: 100%;
+        min-height: min-content;
+        margin-top: auto;
+    }
+    
+    
+}
